@@ -1,0 +1,6 @@
+classes= 8
+train  = /home/ipl_gpu/Aotian/darknet2/data/aicity/train.txt
+valid  = /home/ipl_gpu/Aotian/darknet2/data/aicity/validation.txt
+names = data/aicity.names
+backup = /home/ipl_gpu/Aotian/darknet2/backup
+
