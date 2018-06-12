@@ -64,7 +64,22 @@ The output of `Multi-Camera Vehicle Tracking and Re-identification` is the simil
 
 ## Reference
 
-Z. Tang, G. Wang, H. Xiao, A. Zheng and J.-N. Hwang, "Single-camera and inter-camera vehicle tracking and 3D speed estimation based on fusion of visual and semantic features," in Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recogn. Workshops (CVPRW), Jun. 2018. (to appear)
+Please cite these papers in your publications if it helps your research:
+
+    @inproceedings{tang2018vehicle,
+      author = {Zheng Tang and Gaoang Wang and Hao Xiao and Aotian Zheng and Jenq-Neng Hwang},
+      booktitle = {CVPR Workshop (CVPRW) on the AI City Challenge},
+      title = {Single-camera and Inter-camera Vehicle Tracking and 3D Speed Estimation Based on Fusion of Visual and Semantic Features},
+      year = {2018},
+      pages = {108--115}
+    }
+
+    @inproceedings{tang2017vehicle,
+      author = {Zheng Tang and Gaoang Wang and Tao Liu and Young-Gun Lee and Adwin Jahn and Xu Liu and Xiaodong He and Jenq-Neng Hwang},
+      booktitle = {arXiv preprint arXiv:1708.06831},
+      title = {Multiple-kernel Based Vehicle Tracking Using 3D Deformable Model and Camera Self-Calibration},
+      year = {2017}
+    }
 
 ## Disclaimer
 
