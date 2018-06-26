@@ -1,12 +1,14 @@
 # Single-camera and Inter-camera Vehicle Tracking and 3D Speed Estimation Based on Fusion of Visual and Semantic Features for the NVIDIA AI City Challenge Workshop at CVPR 2018
 
-This repository contains our source code of Track 1 and Track 3 in the NVIDIA AI City Challenge Workshop at CVPR 2018.
+This repository contains our source code of Track 1 and Track 3 in the [NVIDIA AI City Challenge Workshop](https://www.aicitychallenge.org) at CVPR 2018.
 
 The source code of Track 1 is built in MATLAB and C++, with our trained YOLOv2 model provided. 
 
 The source code of Track 3 is developed in Python and C++. 
 
 Both Track 1 and Track 3 have been tested on Linux and Windows. Dependencies include CUDA, cuDNN and OpenCV library.
+
+Team members include [Zheng(Thomas) Tang](https://github.com/zhengthomastang), [Gaoang Wang](https://github.com/GaoangW), [Hao(Alex) Xiao](https://github.com/AlexXiao95), Aotian Zheng.
 
 ## Introduction
 
