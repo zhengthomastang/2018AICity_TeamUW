@@ -1,14 +1,16 @@
-# Single-camera and Inter-camera Vehicle Tracking and 3D Speed Estimation Based on Fusion of Visual and Semantic Features for the NVIDIA AI City Challenge Workshop at CVPR 2018
+## Single-camera and Inter-camera Vehicle Tracking and 3D Speed Estimation Based on Fusion of Visual and Semantic Features
 
-This repository contains our source code of Track 1 and Track 3 in the [NVIDIA AI City Challenge Workshop](https://www.aicitychallenge.org) at CVPR 2018.
+This repository contains our source code of Track 1 and Track 3 in the [NVIDIA AI City Challenge](https://www.aicitychallenge.org) Workshop at [CVPR 2018](http://cvpr2018.thecvf.com/program/workshops).
 
 The source code of Track 1 is built in MATLAB and C++, with our trained YOLOv2 model provided. 
 
 The source code of Track 3 is developed in Python and C++. 
 
-Both Track 1 and Track 3 have been tested on Linux and Windows. Dependencies include CUDA, cuDNN and OpenCV library.
+Both Track 1 and Track 3 have been tested on Linux and Windows. Dependencies include CUDA, cuDNN and OpenCV.
 
-Team members include [Zheng(Thomas) Tang](https://github.com/zhengthomastang), [Gaoang Wang](https://github.com/GaoangW), [Hao(Alex) Xiao](https://github.com/AlexXiao95), Aotian Zheng.
+Our UW team members include [Zheng(Thomas) Tang](https://github.com/zhengthomastang), [Gaoang Wang](https://github.com/GaoangW), [Hao(Alex) Xiao](https://github.com/AlexXiao95), Aotian Zheng.
+
+[[Paper]](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w3/Tang_Single-Camera_and_Inter-Camera_CVPR_2018_paper.pdf), [[Poster]](https://alexxiao95.github.io/publications/cvprw/cvpr_poster.pdf), [[Project Page]](http://allison.ee.washington.edu/thomas/aicity18/), [[2018 NVIDIA AI City Challenge]](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w3/Naphade_The_2018_NVIDIA_CVPR_2018_paper.pdf)
 
 ## Introduction
 
