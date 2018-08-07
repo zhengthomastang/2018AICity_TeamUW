@@ -1,4 +1,4 @@
-## Single-camera and Inter-camera Vehicle Tracking and 3D Speed Estimation Based on Fusion of Visual and Semantic Features
+# Single-camera and Inter-camera Vehicle Tracking and 3D Speed Estimation Based on Fusion of Visual and Semantic Features
 
 This repository contains our source code of Track 1 and Track 3 in the [NVIDIA AI City Challenge](https://www.aicitychallenge.org) Workshop at [CVPR 2018](http://cvpr2018.thecvf.com/program/workshops).
 
