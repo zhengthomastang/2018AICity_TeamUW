@@ -10,7 +10,11 @@ Both Track 1 and Track 3 have been tested on Linux and Windows. Dependencies inc
 
 Our UW team members include [Zheng(Thomas) Tang](https://github.com/zhengthomastang), [Gaoang Wang](https://github.com/GaoangW), [Hao(Alex) Xiao](https://github.com/AlexXiao95), Aotian Zheng.
 
-[[Paper]](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w3/Tang_Single-Camera_and_Inter-Camera_CVPR_2018_paper.pdf), [[Poster]](https://alexxiao95.github.io/publications/cvprw/cvpr_poster.pdf), [[Project Page]](http://allison.ee.washington.edu/thomas/aicity18/), [[2018 NVIDIA AI City Challenge]](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w3/Naphade_The_2018_NVIDIA_CVPR_2018_paper.pdf)
+[[Paper]](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w3/Tang_Single-Camera_and_Inter-Camera_CVPR_2018_paper.pdf), 
+[[Slides]](https://alexxiao95.github.io/publications/cvprw/cvpr_slides.pdf),
+[[Poster]](https://alexxiao95.github.io/publications/cvprw/cvpr_poster.pdf), 
+[[Project Page]](http://allison.ee.washington.edu/thomas/aicity18/), 
+[[2018 NVIDIA AI City Challenge]](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w3/Naphade_The_2018_NVIDIA_CVPR_2018_paper.pdf)
 
 ## Introduction
 
