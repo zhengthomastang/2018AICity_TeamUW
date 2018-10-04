@@ -12,9 +12,8 @@ We select 4,500 frames uniformly sampled from the dataset of NVIDIA AI City Chal
 
 0. Linux system
 1. CUDA and cuDNN
-2. OpenCV 3
 
-The code has been tested on Ubuntu 16.04 with g++, CUDA 8.0, cuDNN 6.0 and OpenCV 3.4. 
+The code has been tested on Ubuntu 16.04 with g++, CUDA 8.0 and cuDNN 6.0. 
 
 ### Installing
 
