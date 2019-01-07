@@ -18,9 +18,9 @@ Our UW team members include [Zheng(Thomas) Tang](https://github.com/zhengthomast
 
 ## Announcement
 
-Sorry about the inconvenience, but the datasets for the NVIDIA AI City Challenge Workshop at CVPR 2018 is no longer available to the public. Instead, the 2019 CVPR AI City Challenge Workshop has just been launched. This year they have a unique city-scale dataset for multi-camera vehicle tracking as well as vehicle re-identification. They also have a new dataset for traffic anomaly detection. The scale of the dataset and the number of vehicles that are being used for evaluation are both unprecedented. 
+Sorry about the inconvenience, but the datasets for the I City Challenge Workshop at CVPR 2018 is no longer available to the public. Instead, the 2019 CVPR AI City Challenge Workshop has just been launched. This year they have a unique city-scale dataset for multi-camera vehicle tracking as well as image-based re-identification. They also have a new dataset for traffic anomaly detection. The scale of the dataset and the number of vehicles that are being used for evaluation are both unprecedented. 
 
-To access the new datasets, each participant will need to download a data release form at the [AI City Challenge website](https://www.aicitychallenge.org/) and participate in the challenge. The form will be available momentarily. Please forward your inquiry to aicitychallenge2019@gmail.com for questions and comments.
+To access the new datasets, each participant will need to download a data release form at the [AI City Challenge website](https://www.aicitychallenge.org/) and participate in the challenge. Please forward your inquiry to aicitychallenge2019@gmail.com for questions and comments.
 
 ## Introduction
 
