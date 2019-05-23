@@ -2,6 +2,8 @@
 
 This is an extension to [YOLOv2](https://github.com/pjreddie/darknet), including our trained model for vehicle detection on the dataset of NVIDIA AI City Challenge. 
 
+**We strongly encourage to try the latest [YOLOv3 object detector](https://pjreddie.com/darknet/yolo/) instead.**  
+
 ## How It Works
 
 We select 4,500 frames uniformly sampled from the dataset of NVIDIA AI City Challenge, where each of them contains 5 to 40 objects. The training data are manually labeled in 8 categories, including sedan, hatchback, bus, pickup, minibus, van, truck and motorcycle. The state-of-the-art object detector, YOLOv2, is chosen by us for training and testing. The pretrained weights are used to initialize the network. 
