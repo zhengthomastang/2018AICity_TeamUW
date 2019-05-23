@@ -1,6 +1,6 @@
 # Single-camera and Inter-camera Vehicle Tracking and 3D Speed Estimation Based on Fusion of Visual and Semantic Features (AI City Challenge Workshop in CVPR 2018)
 
-This repository contains our source code of Track 1 and Track 3 at the [AI City Challenge](https://www.aicitychallenge.org) Workshop in [CVPR 2018](http://cvpr2018.thecvf.com/program/workshops).
+This repository contains our source code of Track 1 and Track 3 at the [AI City Challenge](https://www.aicitychallenge.org) Workshop in [CVPR 2018](http://cvpr2018.thecvf.com/program/workshops). Our team won in both of the tracks at the challenge. 
 
 The source code of Track 1 is built in MATLAB and C++, with our trained YOLOv2 model provided. 
 
@@ -8,7 +8,7 @@ The source code of Track 3 is developed in Python and C++.
 
 Both Track 1 and Track 3 have been tested on Linux and Windows. Dependencies include CUDA, cuDNN and OpenCV.
 
-Our UW team members include [Zheng(Thomas) Tang](https://github.com/zhengthomastang), [Gaoang Wang](https://github.com/GaoangW), [Hao(Alex) Xiao](https://github.com/AlexXiao95), Aotian Zheng.
+The team members include [Zheng(Thomas) Tang](https://github.com/zhengthomastang), [Gaoang Wang](https://github.com/GaoangW), [Hao(Alex) Xiao](https://github.com/AlexXiao95), Aotian Zheng.
 
 [[Paper]](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w3/Tang_Single-Camera_and_Inter-Camera_CVPR_2018_paper.pdf), 
 [[Slides]](https://alexxiao95.github.io/publications/cvprw/cvpr_slides.pdf),
@@ -18,9 +18,9 @@ Our UW team members include [Zheng(Thomas) Tang](https://github.com/zhengthomast
 
 ## Announcement
 
-Sorry about the inconvenience, but the datasets for the AI City Challenge Workshop at CVPR 2018 is no longer available to the public. Instead, the 2019 CVPR AI City Challenge Workshop has just been launched. This year they have a unique city-scale dataset for multi-camera vehicle tracking as well as image-based re-identification. They also have a new dataset for traffic anomaly detection. The scale of the dataset and the number of vehicles that are being used for evaluation are both unprecedented. 
+The datasets for the 2018 AI City Challenge is no longer available to the public. Instead, the 2019 AI City Challenge Workshop was launched as a workshop in CVPR 2019. This year they have a unique city-scale dataset for multi-camera vehicle tracking as well as image-based re-identification. They also have a new dataset for traffic anomaly detection. The scale of the dataset and the number of vehicles that are being used for evaluation are both unprecedented. 
 
-To access the new datasets, each participant will need to download a data release form at the [AI City Challenge website](https://www.aicitychallenge.org/) and participate in the challenge. Please forward your inquiry to aicitychallenge2019@gmail.com for questions and comments.
+To access the new datasets, each participant will need to download a data release form at the [AI City Challenge website](https://www.aicitychallenge.org/). Please forward your inquiry to aicitychallenge2019@gmail.com for questions.
 
 ## Introduction
 
@@ -57,8 +57,11 @@ Under the `./Track1/` folder, there are 6 software packages:
 
 1. `VDO2IMG_IPL`: Converting each video file to a folder of frame images
 2. `CAM_CAL_IPL`: Manual camera calibration based on minimization of reprojection error and EDA optimization
+**With the access to Google Maps, you can use the PnP-based calibration tool [here](https://github.com/zhengthomastang/Cal_PnP).**
 3. `YOLO_VEH_IPL`: Extension of the YOLOv2 object detector with our trained model for vehicle detection/classification
+**We strongly encourage to try the latest [YOLOv3 object detector](https://pjreddie.com/darknet/yolo/) instead.**
 4. `TC_tracker`: Proposed tracklet-clustering-based tracking method
+**Note that this single-camera tracking-by-detection method has been updated into TrackletNet Tracker (TNT). The corresponding paper on arXiv is [here](https://arxiv.org/abs/1811.07258). The source code (training + testing) is provided [here](https://github.com/GaoangW/TNT).**
 5. `APP_MDL_IPL`: Extraction of histogram-based adaptive apperance models and their comparison
 6. `SPD_EST_IPL`: Speed estimation based on input of tracking results and camera parameters
 
@@ -70,6 +73,7 @@ Under the `./Track3/` folder, there are 3 software packages:
 
 1. `Multi-Camera Vehicle Tracking and Re-identification`: Multi-camera vehicle tracking based on a fusion of histogram-based adaptive appearance models, DCNN features, detected car types and traveling time information
 2. `YOLO_LP_IPL`: Detection of license plate from each cropped vehicle image
+**We strongly encourage to try the latest [YOLOv3 object detector](https://pjreddie.com/darknet/yolo/) instead.**
 3. `LP_COMP_IPL`: Comparison of license plates under low resolution
 
 Detailed description of each package is given in each subfolder. 
