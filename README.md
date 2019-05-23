@@ -72,8 +72,8 @@ Detailed description of each package is given in each subfolder.
 Under the `./Track3/` folder, there are 3 software packages:
 
 1. `Multi-Camera Vehicle Tracking and Re-identification`: Multi-camera vehicle tracking based on a fusion of histogram-based adaptive appearance models, DCNN features, detected car types and traveling time information
-2. `YOLO_LP_IPL`: Detection of license plate from each cropped vehicle image
-**We strongly encourage to try the latest [YOLOv3 object detector](https://pjreddie.com/darknet/yolo/) instead.**
+2. `YOLO_LP_IPL`: Detection of license plate from each cropped vehicle image  
+**We strongly encourage to try the latest [YOLOv3 object detector](https://pjreddie.com/darknet/yolo/) instead.**  
 3. `LP_COMP_IPL`: Comparison of license plates under low resolution
 
 Detailed description of each package is given in each subfolder. 
