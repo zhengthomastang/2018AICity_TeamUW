@@ -56,12 +56,12 @@ The proposed appearance model together with DCNN features, license plates, detec
 Under the `./Track1/` folder, there are 6 software packages:
 
 1. `VDO2IMG_IPL`: Converting each video file to a folder of frame images
-2. `CAM_CAL_IPL`: Manual camera calibration based on minimization of reprojection error and EDA optimization
-**With the access to Google Maps, you can use the PnP-based calibration tool [here](https://github.com/zhengthomastang/Cal_PnP).**
-3. `YOLO_VEH_IPL`: Extension of the YOLOv2 object detector with our trained model for vehicle detection/classification
-**We strongly encourage to try the latest [YOLOv3 object detector](https://pjreddie.com/darknet/yolo/) instead.**
-4. `TC_tracker`: Proposed tracklet-clustering-based tracking method
-**Note that this single-camera tracking-by-detection method has been updated into TrackletNet Tracker (TNT). The corresponding paper on arXiv is [here](https://arxiv.org/abs/1811.07258). The source code (training + testing) is provided [here](https://github.com/GaoangW/TNT).**
+2. `CAM_CAL_IPL`: Manual camera calibration based on minimization of reprojection error and EDA optimization  
+**With the access to Google Maps, you can use the PnP-based calibration tool [here](https://github.com/zhengthomastang/Cal_PnP).**  
+3. `YOLO_VEH_IPL`: Extension of the YOLOv2 object detector with our trained model for vehicle detection/classification  
+**We strongly encourage to try the latest [YOLOv3 object detector](https://pjreddie.com/darknet/yolo/) instead.**  
+4. `TC_tracker`: Proposed tracklet-clustering-based tracking method  
+**Note that this single-camera tracking-by-detection method has been updated into TrackletNet Tracker (TNT). The corresponding paper on arXiv is [here](https://arxiv.org/abs/1811.07258). The source code (training + testing) is provided [here](https://github.com/GaoangW/TNT).**  
 5. `APP_MDL_IPL`: Extraction of histogram-based adaptive apperance models and their comparison
 6. `SPD_EST_IPL`: Speed estimation based on input of tracking results and camera parameters
 
