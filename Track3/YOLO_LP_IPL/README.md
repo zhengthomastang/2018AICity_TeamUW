@@ -2,6 +2,8 @@
 
 This is an extension to [YOLOv2](https://github.com/pjreddie/darknet), including our trained model for license plate detection on the dataset of NVIDIA AI City Challenge. 
 
+**We strongly encourage to try the latest [YOLOv3 object detector](https://pjreddie.com/darknet/yolo/) instead.**  
+
 ## How It Works
 
 We train a DCNN model to detect the license plate region in each cropped vehicle image. For each trajectory set, 3 representative views of object instances are selected for license plate recognition. The license plate detector is run on cropped vehicle images and the detected region with the highest score is chosen for comparison. 
