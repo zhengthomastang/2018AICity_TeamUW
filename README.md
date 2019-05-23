@@ -1,4 +1,4 @@
-# Single-camera and Inter-camera Vehicle Tracking and 3D Speed Estimation Based on Fusion of Visual and Semantic Features (AI City Challenge Workshop in CVPR 2018)
+# Single-camera and Inter-camera Vehicle Tracking and 3D Speed Estimation Based on Fusion of Visual and Semantic Features (Winner of Track 1 and Track 3 at the AI City Challenge Workshop in CVPR 2018)
 
 This repository contains our source code of Track 1 and Track 3 at the [AI City Challenge](https://www.aicitychallenge.org) Workshop in [CVPR 2018](http://cvpr2018.thecvf.com/program/workshops). Our team won in both of the tracks at the challenge. 
 
@@ -57,7 +57,7 @@ Under the `./Track1/` folder, there are 6 software packages:
 
 1. `VDO2IMG_IPL`: Converting each video file to a folder of frame images
 2. `CAM_CAL_IPL`: Manual camera calibration based on minimization of reprojection error and EDA optimization  
-**With the access to Google Maps, you can use the PnP-based calibration tool [here](https://github.com/zhengthomastang/Cal_PnP).**  
+**With the access to Google Maps, you can use the PnP-based calibration tool [here](https://github.com/zhengthomastang/Cal_PnP) instead.**  
 3. `YOLO_VEH_IPL`: Extension of the YOLOv2 object detector with our trained model for vehicle detection/classification  
 **We strongly encourage to try the latest [YOLOv3 object detector](https://pjreddie.com/darknet/yolo/) instead.**  
 4. `TC_tracker`: Proposed tracklet-clustering-based tracking method  
