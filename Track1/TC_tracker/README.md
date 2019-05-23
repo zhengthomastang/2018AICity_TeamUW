@@ -2,6 +2,8 @@
 
 This is an implementation of tracklet clustering for 2D tracking.
 
+**Note that this single-camera tracking-by-detection method has been updated into TrackletNet Tracker (TNT). The corresponding paper on arXiv is [here](https://arxiv.org/abs/1811.07258). The source code (training + testing) is provided [here](https://github.com/GaoangW/TNT).**  
+
 `TC_tracker` is mainly developed by Gaoang Wang, with the joint efforts from Zheng (Thomas) Tang, Hao Xiao, Aotian Zheng, and Prof. Jenq-Neng Hwang from the Information Processing Lab in the Department of Electrical Engineering, University of Washington. 
 
 ## How It Works
