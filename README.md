@@ -16,7 +16,7 @@ The team members include [Zheng (Thomas) Tang](https://github.com/zhengthomastan
 [[Project Page]](http://allison.ee.washington.edu/thomas/aicity18/), 
 [[2018 NVIDIA AI City Challenge]](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w3/Naphade_The_2018_NVIDIA_CVPR_2018_paper.pdf)
 
-## Notice
+## Important Notice
 
 The datasets for the 2018 AI City Challenge are no longer available to the public. However, as the 2019 AI City Challenge Workshop was launched at CVPR 2019, they provided a new city-scale dataset for multi-camera vehicle tracking as well as image-based re-identification. They also had a new dataset for traffic anomaly detection. The scale of the datasets and the number of vehicles that are being used for evaluation are both unprecedented. 
 
@@ -49,7 +49,7 @@ In SCT, the loss function in our data association algorithm consists of motion, 
 
 The proposed appearance model together with DCNN features, license plates, detected car types and traveling time information are combined for the computation of cost function in ICT. 
 
-## Code structure
+## Coding Structure
 
 ### Track 1
 
@@ -78,11 +78,11 @@ Under the [Track3](https://github.com/zhengthomastang/2018AICity_TeamUW/tree/mas
 
 **Detailed description of each package is given in each subfolder.**
 
-The output of `1_Multi-Camera Vehicle Tracking and Re-identification` is the similarity score between each pair of vehicles for comparison. It can be converted into a distance score by inverse proportion. The output of `3_LP_COMP_IPL` is the distance score between each two license plates. The final distance score between two vehicles is the multiplication of the above two distance scores. 
+The output of [1_Multi-Camera Vehicle Tracking and Re-identification](https://github.com/zhengthomastang/2018AICity_TeamUW/tree/master/Track3/1_Multi-Camera%20Vehicle%20Tracking%20and%20Re-identification) is the similarity score between each pair of vehicles for comparison. It can be converted into a distance score by inverse proportion. The output of [3_LP_COMP](https://github.com/zhengthomastang/2018AICity_TeamUW/tree/master/Track3/3_LP_COMP) is the distance score between each two license plates. The final distance score between two vehicles is the multiplication of the above two distance scores. 
 
-## Reference
+## References
 
-Please cite these papers in your publications if it helps your research:
+Please consider to cite these papers in your publications if it helps your research:
 
     @inproceedings{Tang18AIC,
       author = {Zheng Tang and Gaoang Wang and Hao Xiao and Aotian Zheng and Jenq-Neng Hwang},
