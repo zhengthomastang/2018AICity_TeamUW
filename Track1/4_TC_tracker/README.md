@@ -10,7 +10,7 @@ In SCT, the loss function in our data association algorithm consists of motion, 
 
 ## How to Build & Use
 
-Please refer to the MATLAB toolbox from [Gaoang Wang's GitHub repository](https://github.com/GaoangW/TC_tracker), where detailed instruction of configuration and installation is provided.
+Please refer to [Gaoang Wang's GitHub repository](https://github.com/GaoangW/TC_tracker), where detailed instructions of configuration and installation are provided.
 
 ### Input & Output Format
 
