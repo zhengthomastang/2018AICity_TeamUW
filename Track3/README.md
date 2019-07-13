@@ -1,21 +1,14 @@
-# Track 3
-
-## Introduction
-
-Multi-camera Vehicle Detection and Reidentification - Participating teams identify all vehicles that are seen passing at least once at all of 4 different locations in a set of 15 videos. Evaluation for Challenge Track 3 is based on detection accuracy and localization sensitivity for a set of ground-truth vehicles that were driven through all camera locations at least once.
-
-## How It Works
-
-The proposed appearance model together with DCNN features, license plates, detected car types and traveling time information are combined for the computation of cost function in ICT. 
+# Track 3 (Multi-camera Vehicle Detection and Reidentification)
 
 ## Code structure
 
-Under the `./Track3/` folder, there are 3 software packages:
+Under the [Track3](https://github.com/zhengthomastang/2018AICity_TeamUW/tree/master/Track3) folder, there are 3 components:
 
-1. `Multi-Camera Vehicle Tracking and Re-identification`: Multi-camera vehicle tracking based on a fusion of histogram-based adaptive appearance models, DCNN features, detected car types and traveling time information
-2. `YOLO_LP_IPL`: Detection of license plate from each cropped vehicle image
-3. `LP_COMP_IPL`: Comparison of license plates under low resolution
+1. [1_Multi-Camera Vehicle Tracking and Re-identification](https://github.com/zhengthomastang/2018AICity_TeamUW/tree/master/Track3/1_Multi-Camera%20Vehicle%20Tracking%20and%20Re-identification): Multi-camera vehicle tracking based on a fusion of histogram-based adaptive appearance models, DCNN features, detected car types and traveling time information
+2. [2_YOLO_LP](https://github.com/zhengthomastang/2018AICity_TeamUW/tree/master/Track3/2_YOLO_LP): Detection of license plate from each cropped vehicle image based on YOLOv2 
+**We strongly encourage users to try the latest [YOLOv3 object detector](https://pjreddie.com/darknet/yolo/) instead.**  
+3. [3_LP_COMP](https://github.com/zhengthomastang/2018AICity_TeamUW/tree/master/Track3/3_LP_COMP): Comparison of license plates under low resolution
 
-Detailed description of each package is given in each subfolder. 
+**Detailed description of each package is given in each subfolder.**
 
-The output of `Multi-Camera Vehicle Tracking and Re-identification` is the similarity score between each pair of vehicles for comparison. We can convert it into a distance score by inverse proportion. The output of `LP_COMP_IPL` is the distance score between each two license plates. The final distance score between two vehicles is the multiplication of the above two distance scores. Several vehicle pairs that enjoy low distance scores and appear in all 4 camera locations are submitted to Track 3 for evaluation. 
+The output of `1_Multi-Camera Vehicle Tracking and Re-identification` is the similarity score between each pair of vehicles for comparison. It can be converted into a distance score by inverse proportion. The output of `3_LP_COMP_IPL` is the distance score between each two license plates. The final distance score between two vehicles is the multiplication of the above two distance scores. 
