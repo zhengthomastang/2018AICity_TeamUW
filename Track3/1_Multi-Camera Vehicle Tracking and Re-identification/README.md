@@ -8,7 +8,7 @@ In inter-camera tracking (ICT), the loss function is computed based on a fusion 
 
 ## How to Build & Use
 
-Please refer to the package from [Hao Xiao's GitHub repository](https://github.com/AlexXiao95/Multi-camera-Vehicle-Tracking-and-Reidentification), where detailed instruction of configuration and installation is provided.
+Please refer to [Hao Xiao's GitHub repository](https://github.com/AlexXiao95/Multi-camera-Vehicle-Tracking-and-Reidentification), where detailed instructions of configuration and installation are provided.
 
 ### Input & Output Format
 
