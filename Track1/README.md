@@ -1,6 +1,6 @@
 # Track 1 (Traffic Flow Analysis / Speed Estimation) 
 
-## Code Structure
+## Coding Structure
 
 Under the [Track1](https://github.com/zhengthomastang/2018AICity_TeamUW/tree/master/Track1) folder, there are 6 components:
 
