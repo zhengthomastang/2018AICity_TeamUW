@@ -10,7 +10,7 @@ We train a DCNN model to detect the license plate region in each cropped vehicle
 
 ## How to Build & Use
 
-1. Download the trained model (weights) [here](https://drive.google.com/open?id=1T200LSePq0k6fm6c7K9PnnXzgS5-Os7r). 
+1. Download the trained model (weights) [here](https://drive.google.com/open?id=1Td3e5oeOlFheczMvP0f9t--scga9U2e2). 
 2. Follow the instruction in Joseph Redmon's [blog](https://pjreddie.com/darknet/yolov2/) to make and test the trained model. The given bash files provide examples of processing the entire dataset. 
 
 <div align="center">
