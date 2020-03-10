@@ -20,7 +20,7 @@ The team members include [Zheng (Thomas) Tang](https://github.com/zhengthomastan
 
 The datasets for the 2018 AI City Challenge are no longer available to the public. However, as the 2019 AI City Challenge Workshop was launched at CVPR 2019, they provided a new city-scale dataset for multi-camera vehicle tracking as well as image-based re-identification. They also had a new dataset for traffic anomaly detection. The scale of the datasets and the number of vehicles that are being used for evaluation are both unprecedented. 
 
-To access the new datasets, each participant will need to download a data release form at the [AI City Challenge website](https://www.aicitychallenge.org/). Please forward your inquiry to aicitychallenge2019@gmail.com.
+To access the new datasets, each participant will need to download a data release form at the [AI City Challenge website](https://www.aicitychallenge.org/). Please forward your inquiry to aicitychallenges@gmail.com.
 
 ## Introduction
 
