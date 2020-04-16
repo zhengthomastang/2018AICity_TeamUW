@@ -49,7 +49,7 @@ In SCT, the loss function in our data association algorithm consists of motion, 
 
 The proposed appearance model together with DCNN features, license plates, detected car types and traveling time information are combined for the computation of cost function in ICT. 
 
-## Coding Structure
+## Code Structure
 
 ### Track 1
 
