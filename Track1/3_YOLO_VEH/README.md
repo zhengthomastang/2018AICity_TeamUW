@@ -2,7 +2,7 @@
 
 This is an extension to [YOLOv2](https://pjreddie.com/darknet/yolov2/), including our trained model for vehicle detection on the dataset of 2018 NVIDIA AI City Challenge. 
 
-**We strongly encourage users to try the latest [YOLOv3 object detector](https://pjreddie.com/darknet/yolo/) instead.** 
+**We strongly encourage users to try the latest [YOLOv4 object detector](https://github.com/AlexeyAB/darknet) instead.** 
 
 ## Introduction
 
