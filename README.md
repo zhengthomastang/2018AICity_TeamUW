@@ -1,6 +1,6 @@
 # Single-camera and Inter-camera Vehicle Tracking and 3D Speed Estimation Based on Fusion of Visual and Semantic Features (Winner of Track 1 and Track 3 at the AI City Challenge Workshop in CVPR 2018)
 
-This repository contains our source code of Track 1 and Track 3 at the [AI City Challenge Workshop](https://www.aicitychallenge.org) in [CVPR 2018](http://cvpr2018.thecvf.com/program/workshops). Our team won in both of the tracks at the challenge. 
+This repository contains our source code of Track 1 and Track 3 at the [2nd AI City Challenge Workshop](https://www.aicitychallenge.org) in [CVPR 2018](http://cvpr2018.thecvf.com/program/workshops). Our team won in both of the tracks at the challenge. 
 
 The source code of Track 1 is built in MATLAB and C++, with our trained YOLOv2 model provided. 
 
