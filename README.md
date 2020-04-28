@@ -10,11 +10,11 @@ The code has been tested on Linux and Windows. Dependencies include CUDA, cuDNN 
 
 The team members include [Zheng (Thomas) Tang](https://github.com/zhengthomastang), [Gaoang Wang](https://github.com/GaoangW), [Hao (Alex) Xiao](https://github.com/AlexXiao95), Aotian Zheng.
 
-[[Paper]](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w3/Tang_Single-Camera_and_Inter-Camera_CVPR_2018_paper.pdf), 
-[[Slides]](https://alexxiao95.github.io/publications/cvprw/cvpr_slides.pdf),
-[[Poster]](https://alexxiao95.github.io/publications/cvprw/cvpr_poster.pdf), 
-[[Project Page]](http://allison.ee.washington.edu/thomas/aicity18/), 
-[[2018 NVIDIA AI City Challenge]](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w3/Naphade_The_2018_NVIDIA_CVPR_2018_paper.pdf)
+[[Paper](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w3/Tang_Single-Camera_and_Inter-Camera_CVPR_2018_paper.pdf)], 
+[[Slides](https://alexxiao95.github.io/publications/cvprw/cvpr_slides.pdf)],
+[[Poster](https://alexxiao95.github.io/publications/cvprw/cvpr_poster.pdf)], 
+[[Project Page](http://allison.ee.washington.edu/thomas/aicity18/)], 
+[[The 2nd AI City Challenge @ CVPR 2018](https://www.aicitychallenge.org/2018-ai-city-challenge/)]
 
 ## Important Notice
 
@@ -59,7 +59,7 @@ Under the [Track1](https://github.com/zhengthomastang/2018AICity_TeamUW/tree/mas
 2. [2_CAM_CAL](https://github.com/zhengthomastang/2018AICity_TeamUW/tree/master/Track1/2_CAM_CAL): Manual camera calibration based on minimization of reprojection error by EDA optimization  
 **With the access to GPS coordinates (using Google Maps or other tools), you can use our newly developed PnP-based calibration tool [here](https://github.com/zhengthomastang/Cal_PnP) instead.**  
 3. [3_YOLO_VEH](https://github.com/zhengthomastang/2018AICity_TeamUW/tree/master/Track1/3_YOLO_VEH): Extension of the YOLOv2 object detector with our trained model for vehicle detection/classification  
-**We strongly encourage users to try the latest [YOLOv3 object detector](https://pjreddie.com/darknet/yolo/) instead.**  
+**We strongly encourage users to try the latest [YOLOv4 object detector](https://github.com/AlexeyAB/darknet) instead.**  
 4. [4_TC_tracker](https://github.com/zhengthomastang/2018AICity_TeamUW/tree/master/Track1/4_TC_tracker): Proposed tracklet-clustering-based tracking method  
 **Note that this SCT method has been upgraded into TrackletNet Tracker (TNT). The corresponding paper on arXiv is [here](https://arxiv.org/abs/1811.07258). The source code (training + testing) is provided [here](https://github.com/GaoangW/TNT).**  
 5. [5_APP_MDL](https://github.com/zhengthomastang/2018AICity_TeamUW/tree/master/Track1/5_APP_MDL) **(optional)**: Extraction of histogram-based adaptive apperance models and their comparison
