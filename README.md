@@ -72,7 +72,7 @@ Under the [Track3](Track3) folder, there are 3 components:
 
 1. [1_Multi-Camera Vehicle Tracking and Re-identification](Track3/1_Multi-Camera%20Vehicle%20Tracking%20and%20Re-identification): Multi-camera vehicle tracking based on a fusion of histogram-based adaptive appearance models, DCNN features, detected car types and traveling time information
 2. [2_YOLO_LP](Track3/2_YOLO_LP): Detection of license plate from each cropped vehicle image based on YOLOv2 with our trained model provided 
-**We strongly encourage users to try the latest [YOLOv4 object detector](https://github.com/AlexeyAB/darknet) instead.**  
+**We strongly encourage users to use the latest [YOLOv4 object detector](https://github.com/AlexeyAB/darknet) instead.**  
 3. [3_LP_COMP](Track3/3_LP_COMP): Comparison of license plates under low resolution
 
 **Detailed description of each package is given in each subfolder.**
