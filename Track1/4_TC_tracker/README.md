@@ -2,7 +2,7 @@
 
 This is an implementation of tracklet clustering for 2D tracking.
 
-**Note that this SCT method has been upgraded into TrackletNet Tracker (TNT). The corresponding paper on arXiv is [here](https://arxiv.org/abs/1811.07258). The source code (training + testing) is provided [here](https://github.com/GaoangW/TNT).** 
+**Note that this SCT method has been upgraded to TrackletNet Tracker (TNT). The corresponding paper on arXiv is [here](https://arxiv.org/abs/1811.07258). The source code (training + testing) is provided [here](https://github.com/GaoangW/TNT).**
 
 ## Introduction
 
