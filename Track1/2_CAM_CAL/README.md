@@ -2,7 +2,7 @@
 
 This is a C++ implementation of manual camera calibration with EDA optimization.
 
-**With the access to GPS coordinates (using Google Maps or other tools), you can use our newly developed PnP-based calibration tool [here](https://github.com/zhengthomastang/Cal_PnP) instead.**
+**With the access to GPS coordinates (using Google Maps or other tools), we suggest you to use our newly developed PnP-based calibration tool [here](https://github.com/zhengthomastang/Cal_PnP) instead.**  
 
 ## Introduction
 
