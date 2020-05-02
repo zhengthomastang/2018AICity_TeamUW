@@ -16,13 +16,17 @@ Please refer to [Gaoang Wang's GitHub repository](https://github.com/GaoangW/TC_
 
 For input detection results in text, the format of each line is as follows:
 
+```
 \<frame_id\>,-1,\<xmin\>,\<ymin\>,\<width\>,\<height\>,\<confidence\>,-1,-1,-1,\<class\>
+```
 
 This is similar to the required format of [MOTChallenge](https://motchallenge.net/). The frame ID is 0-based. The confidence is in percentage. 
 
 For output 2D tracking results in text, the format of each line is as follows:
 
+```
 \<frame_id\>,\<obj_id\>,\<xmin\>,\<ymin\>,\<width\>,\<height\>,\<confidence\>,-1,-1,-1,\<class\>
+```
 
 This is similar to the required format of [MOTChallenge](https://motchallenge.net/). The frame ID and object ID are both 0-based. The confidence is in percentage.  
 
